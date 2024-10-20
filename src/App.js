@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { cargaData } from './Functions/apireq';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+
+const url1 = "https://fakestoreapi.com/products";
 
 function App() {
+
+/*   const data = cargaData(url1).then((datos) =>{
+    console.log(datos[0].title)
+  }) */
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }
