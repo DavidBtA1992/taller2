@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/taller2/static/css/main.12bc5a0c.css",
+    "main.js": "/taller2/static/js/main.229d4ddd.js",
+    "static/media/interno.jpeg": "/taller2/static/media/interno.ff84853033f5e30c48b3.jpeg",
+    "static/media/fachada.jpeg": "/taller2/static/media/fachada.cf08776f043f377340f2.jpeg",
+    "static/media/logo.jpeg": "/taller2/static/media/logo.1ef15aead93fbdd6b6a1.jpeg",
+    "static/media/modelo.jpeg": "/taller2/static/media/modelo.46e2f31960de6812a2bd.jpeg",
+    "index.html": "/taller2/index.html",
+    "main.12bc5a0c.css.map": "/taller2/static/css/main.12bc5a0c.css.map",
+    "main.229d4ddd.js.map": "/taller2/static/js/main.229d4ddd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12bc5a0c.css",
+    "static/js/main.229d4ddd.js"
+  ]
+}
