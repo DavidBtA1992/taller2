@@ -1,23 +1,20 @@
-import './App.css';
-import { cargaData } from './Functions/apireq';
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
-import Main from './Components/Main/Main';
+import "./App.css";
+import { cargaData } from "./Functions/apireq";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import PagGaleria from "./Components/Galeria/PagGaleria/PagGaleria";
 
-const url1 = "https://fakestoreapi.com/products";
+//TODO: PENDIENTE CREAR ARCHIVOS DE CARPETA PRODUCTO, CREAR FORMULARIO, DAR FUNCIONALIDAD A LOS BOTONES DEL MENU Y DAR ESTILO A TODO EL PROYECTO
+
 
 function App() {
-
-/*   const data = cargaData(url1).then((datos) =>{
-    console.log(datos[0].title)
-  }) */
-
-
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header />
+      <Main />
+      <PagGaleria />
+      <Footer />
     </div>
   );
 }
